@@ -43,7 +43,7 @@
     console.log('Declare testable functions.....................')
 
     function divide(x, y) {
-      return students/sections
+      return i/j
     }
     console.log('Defined divide=' + divide)
 
@@ -51,9 +51,9 @@
 
     document.getElementById('clicker').addEventListener('click', function () {
       const s = document.getElementById('guest').value
-      const i = parseInt(document.getElementById('students').value)
+      const i = parseFloat(document.getElementById('students').value)
       console.log('i=' + i)
-      const j = parseInt(document.getElementById('sections').value)
+      const j = parseFloat(document.getElementById('sections').value)
       console.log('j=' + j)
       const ans = s + ', Section average is ' + divide(i, j) + '.'
       document.getElementById('result').innerHTML = ans
